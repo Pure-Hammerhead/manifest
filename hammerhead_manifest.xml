@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remove-project name="android_build" />
+<remove-project name="android_vendor_pure" />
+<remove-project name="platform/hardware/broadcom/wlan" />
+<remove-project name="platform/hardware/qcom/audio" />
+<remove-project name="platform/hardware/qcom/display" />
+<remove-project name="platform/hardware/qcom/media" />
+<remove-project name="platform/hardware/qcom/bt" />
+<remove-project name="platform/hardware/qcom/gps" />
+<remove-project name="platform/hardware/qcom/keymaster" />
+<remove-project name="android_system_sepolicy" />
+<remove-project name="platform/bionic" />
+<remove-project name="proprietary_vendor_huawei" />
+<remove-project name="proprietary_vendor_lge" />
+<remove-project name="proprietary_vendor_moto" />
+<remove-project name="android_kernel_huawei_angler" />
+<remove-project name="android_kernel_lge_bullhead" />
+<remove-project name="android_kernel_moto_shamu" />
+
+<!-- Device, Kernel & Vendor -->
+<project path="device/lge/hammerhead" name="Pure-Hammerhead/android_device_lge_hammerhead" remote="github" revision="n" />
+<project path="kernel/lge/hammerhead" name="nitrogen-os-devices/nitrogen_kernel_lge_hammerhead" remote="github" revision="n2" />
+<project path="vendor/lge" name="DirtyUnicorns/android_vendor_lge" remote="github" revision="n7x" />
+
+<!-- Missing (8974) stuff -->
+<project path="hardware/broadcom/wlan" name="DirtyUnicorns/android_hardware_broadcom_wlan" remote="github" revision="n7x" />
+<project path="hardware/qcom/msm8x74" name="DirtyUnicorns/android_hardware_qcom_msm8x74" remote="github" revision="n" />
+<project path="hardware/qcom/audio" name="DirtyUnicorns/android_hardware_qcom_audio" remote="github" revision="n7x" />
+<project path="hardware/qcom/display" name="DirtyUnicorns/android_hardware_qcom_display" remote="github" revision="n7x" />
+<project path="hardware/qcom/media" name="DirtyUnicorns/android_hardware_qcom_media" remote="github" revision="n7x" />
+<project path="hardware/qcom/bt" name="DirtyUnicorns/android_hardware_qcom_bt" remote="github" revision="n7x" />
+<project path="hardware/qcom/gps" name="DirtyUnicorns/android_hardware_qcom_gps" remote="github" revision="n7x" />
+<project path="hardware/qcom/keymaster" name="DirtyUnicorns/android_hardware_qcom_keymaster" remote="github" revision="n7x" />
+<project path="build" name="Pure-Hammerhead/android_build" remote="github" revision="android-7.1" />
+<project path="vendor/pure" name="Pure-Hammerhead/android_vendor_pure" remote="github" revision="android-7.1" />
+<project path="system/sepolicy" name="DirtyUnicorns/android_system_sepolicy" remote="github" revision="n" />
+<project path="bionic" name="DirtyUnicorns/android_bionic" remote="github" revision="n7x" />
+</manifest>
