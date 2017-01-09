@@ -3,6 +3,8 @@
 
 <remove-project name="android_build" />
 <remove-project name="android_vendor_pure" />
+<remove-project name="android_frameworks_av" />
+<remove-project name="android_vendor_pixelgapps" />
 <remove-project name="platform/hardware/broadcom/wlan" />
 <remove-project name="platform/hardware/qcom/audio" />
 <remove-project name="platform/hardware/qcom/display" />
@@ -18,23 +20,29 @@
 <remove-project name="android_kernel_huawei_angler" />
 <remove-project name="android_kernel_lge_bullhead" />
 <remove-project name="android_kernel_moto_shamu" />
+<remove-project name="android_kernel_google_marlin" />
+<remove-project name="android_device_huawei_angler" />
+<remove-project name="android_device_lge_bullhead" />
+<remove-project name="android_device_moto_shamu" />
+<remove-project name="android_device_google_marlin" />
 
 <!-- Device, Kernel & Vendor -->
-<project path="device/lge/hammerhead" name="Pure-Hammerhead/android_device_lge_hammerhead" remote="github" revision="n" />
-<project path="kernel/lge/hammerhead" name="nitrogen-os-devices/nitrogen_kernel_lge_hammerhead" remote="github" revision="n2" />
-<project path="vendor/lge" name="DirtyUnicorns/android_vendor_lge" remote="github" revision="n7x" />
+<project path="device/lge/hammerhead" name="Krexus/device_lge_hammerhead" remote="github" revision="n+" />
+<project path="kernel/lge/hammerhead" name="Krexus/kernel_lge_hammerhead" remote="github" revision="n+" />
+<project path="vendor/lge" name="Krexus/vendor_lge" remote="github" revision="n+" />
 
 <!-- Missing (8974) stuff -->
-<project path="hardware/broadcom/wlan" name="DirtyUnicorns/android_hardware_broadcom_wlan" remote="github" revision="n7x" />
-<project path="hardware/qcom/msm8x74" name="DirtyUnicorns/android_hardware_qcom_msm8x74" remote="github" revision="n" />
-<project path="hardware/qcom/audio" name="DirtyUnicorns/android_hardware_qcom_audio" remote="github" revision="n7x" />
-<project path="hardware/qcom/display" name="DirtyUnicorns/android_hardware_qcom_display" remote="github" revision="n7x" />
-<project path="hardware/qcom/media" name="DirtyUnicorns/android_hardware_qcom_media" remote="github" revision="n7x" />
-<project path="hardware/qcom/bt" name="DirtyUnicorns/android_hardware_qcom_bt" remote="github" revision="n7x" />
-<project path="hardware/qcom/gps" name="DirtyUnicorns/android_hardware_qcom_gps" remote="github" revision="n7x" />
-<project path="hardware/qcom/keymaster" name="DirtyUnicorns/android_hardware_qcom_keymaster" remote="github" revision="n7x" />
+<project path="hardware/broadcom/wlan" name="Krexus/hardware_broadcom_wlan" remote="github" revision="n+" />
+<project path="hardware/qcom/msm8x74" name="Krexus/hardware_qcom_msm8x74" remote="github" revision="n+" />
+<project path="hardware/qcom/audio" name="Krexus/hardware_qcom_audio" remote="github" revision="n+" />
+<project path="hardware/qcom/display" name="Krexus/hardware_qcom_display" remote="github" revision="n+" />
+<project path="hardware/qcom/media" name="Krexus/hardware_qcom_media" remote="github" revision="n+" />
+<project path="hardware/qcom/bt" name="Krexus/hardware_qcom_bt" remote="github" revision="n+" />
+<project path="hardware/qcom/gps" name="Krexus/hardware_qcom_gps" remote="github" revision="n+" />
+<project path="hardware/qcom/keymaster" name="Krexus/hardware_qcom_keymaster" remote="github" revision="n+" />
 <project path="build" name="Pure-Hammerhead/android_build" remote="github" revision="android-7.1" />
 <project path="vendor/pure" name="Pure-Hammerhead/android_vendor_pure" remote="github" revision="android-7.1" />
-<project path="system/sepolicy" name="DirtyUnicorns/android_system_sepolicy" remote="github" revision="n" />
-<project path="bionic" name="DirtyUnicorns/android_bionic" remote="github" revision="n7x" />
+<project path="system/sepolicy" name="Krexus/system_sepolicy" remote="github" revision="n+" />
+<project path="bionic" name="Krexus/bionic" remote="github" revision="n+" />
+<project path="frameworks/av" name="Krexus/frameworks_av" remote="github" revision="n+" />
 </manifest>
