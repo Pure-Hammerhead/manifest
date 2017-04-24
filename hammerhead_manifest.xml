@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote name="gtrlab"
+           fetch="https://gitlab.com/GtrCraft/" /> 
+
 <remove-project name="android_build" />
 <remove-project name="android_vendor_pure" />
 <remove-project name="android_frameworks_av" />
@@ -39,8 +42,8 @@
 <project path="hardware/qcom/bt" name="Krexus/hardware_qcom_bt" remote="github" revision="n+" />
 <project path="hardware/qcom/gps" name="Krexus/hardware_qcom_gps" remote="github" revision="n+" />
 <project path="hardware/qcom/keymaster" name="Krexus/hardware_qcom_keymaster" remote="github" revision="n+" />
-<project path="build" name="Pure-Hammerhead/android_build" remote="github" revision="n-mr1" />
-<project path="vendor/pure" name="Pure-Hammerhead/android_vendor_pure" remote="github" revision="n-mr1" />
+<project path="build" name="Pure-Hammerhead/android_build" remote="github" revision="n-mr2" />
+<project path="vendor/pure" name="Pure-Hammerhead/android_vendor_pure" remote="github" revision="n-mr2" />
 <project path="bionic" name="Krexus/bionic" remote="github" revision="n+" />
 <project path="frameworks/av" name="Krexus/frameworks_av" remote="github" revision="n+" />
 <project path="system/sepolicy" name="Krexus/system_sepolicy" remote="github" revision="n+" />
